@@ -1,0 +1,16 @@
+Date: Week 1
+Attendees: Emma, Michael, Sophia, Daniel, Aisha, Ryan
+
+Transcript:
+
+Michael (PM): Welcome everyone. Today we’ll align on scope, milestones, and expectations.
+
+Emma (Owner): Our priority is a simple, trustworthy shopping experience for dog owners.
+
+Sophia (Designer): I’ll focus on a friendly design using warm colors and pet imagery.
+
+Daniel (Frontend): We’ll ensure mobile responsiveness first.
+
+Aisha (Backend): Payment and order security will be our top focus.
+
+Michael: Great. I’ll circulate meeting notes and next steps.

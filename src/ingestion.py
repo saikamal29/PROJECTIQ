@@ -1,11 +1,12 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from src.ingestion import documents_list, load_excel, load_pdf, load_word
+from src.loaders import documents_list, load_excel, load_pdf, load_word
+from pathlib import Path
 
 # [".docx", ".pdf", ".xlsx"])
 
 
-def get_all_docs(folder_path):
+def get_all_docs():
     """
     Scans a folder for supported document types and loads them into Document objects.
     Args:
@@ -13,6 +14,7 @@ def get_all_docs(folder_path):
     Returns:
         list[Document]: A combined list of Document objects from all supported files in the folder.
     """
+    folder_path = str(Path(__file__).parent.parent / "data")
     docs_dict = documents_list(folder_path)
     docs_doc_list = []
     for file_type in docs_dict.keys():
